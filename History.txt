@@ -1,1 +1,58 @@
-history
+    1  apt-get update; apt-get install git -y
+    2  git --verssion
+    3  git --version
+    4  which git
+    5  mkdir mygit_projects
+    6  ls
+    7  cd mygit_projects/
+    8  git clone https://github.com/ATINDRAA/deveops-niit.git
+    9  ls
+   10  cd deveops-niit/ls
+   11  cd deveops-niit/
+   12  ls
+   13  pwd
+   14  ls
+   15  git log
+   16  cd deveops-niit/
+   17  git log
+   18  echo "Apple pie"
+   19  echo "Apple pie" git hash-object --stdin
+   20  echo "Apple pie"   git hash-object --stdin
+   21  echo "Apple pie"  | git hash-object --stdin
+   22  echo "Apple pie"  | git hash-object --stdin -w
+   23  ls
+   24  ls -a
+   25  cd .git/
+   26  ls -ltr
+   27  cd objects/
+   28  ls
+   29  cd 26
+   30  ls
+   31  cd ..
+   32  git cat-file 26a556185940d65c99e7b8f2bc60e34f1704face -p
+   33  git log
+   34  cd .git
+   35  cd ..
+   36  cd .git
+   37  cd .git/
+   38  ls
+   39  file HEAD
+   40  cat HEAD
+   41  cat refs/heads/master 
+   42  cd..
+   43  cd ..
+   44  git status
+   45  git log
+   46  git branch
+   47  history > "History.txt"
+   48  git log
+   49  history > History.txt
+   50  echo
+   51  echo history > History.txt
+   52  git push
+   53  git log
+   54  git status
+   55  git add History.txt
+   56  commit
+   57  git commit
+   58  history > History.txt
